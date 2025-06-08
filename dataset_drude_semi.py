@@ -16,7 +16,7 @@ for spectrum_id in range(n_spectra):
         E0 = np.random.uniform(1.0, 5.0)
         C = np.random.uniform(0.5, 5.0)
         Eg = np.random.uniform(1.0, 5.0)
-        eps_inf = np.random.uniform(1.0, 5.0)
+        eps_inf = np.random.uniform(1.0, 3.0)
         d_film = np.random.uniform(1, 250)
         gamma = np.random.uniform(0.1, 4)
         wp = np.random.uniform(10.0, 20.0)
